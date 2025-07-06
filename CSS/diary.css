@@ -109,15 +109,6 @@
     display: block; /* Show the dropdown when hovering over "Contact" */
   }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav-links {
-      flex-direction: column;
-      gap: 1rem;
-      text-align: left;
-    }
-  }
-
 .diary-details {
     display: flex;
     flex-direction: column;
@@ -155,3 +146,13 @@
     gap: 10px;
     padding: 10px;
   }
+
+    /* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 5px;
+  }
+}
