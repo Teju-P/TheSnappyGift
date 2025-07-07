@@ -19,16 +19,21 @@
           <li><a href="#products">Products</a></li>
           <li><a href="#about">About Us</a></li>
           <li class="dropdown">
-              <a href="#contact">Contact</a>
-              <ul class="dropdown-menu">
-                <li><a href="tel:+916362150343">📞 Phone</a></li>
-                <li><a href="mailto:info@elegantquest.com">✉️ Email</a></li>
-              </ul>
+              <a id="openModalBtn" href="#contact">Contact</a>
             </li>
         </ul>
       </nav>
     </div>
   </header>
+
+  <div id="modalOverlay" class="modal-overlay">
+    <div class="modal-content">
+        <h2>To Contact Us --></h2>
+        <p>📞<b>Call:</b> <a href="tel:+916362150343">6362150343</a></p>
+        <p>✉️<b>Email:</b> <a href="mailto:info@elegantquest.com">info@elegantquest.com</a></p>
+        <center><button id="closeModalBtn">Close</button></center>
+    </div>
+</div>
 
   <!-- Hero Section -->
   <section class="hero">
