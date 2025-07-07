@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(144, 160, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: ivory;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;  
+    margin-top: 14%;
+}
+
+button{
+    background-color: #4CAF50;
+    color: ivory;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.05);
+}
